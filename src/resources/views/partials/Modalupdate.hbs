@@ -1,0 +1,149 @@
+<div class="modal fade" id="Modalupdate" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 1200px;">
+        <div class="modal-content" style="height: 600px;">
+            <div class="modal-header">
+                <h5 class="modal-title title-modal" id="exampleModalLongTitle">Cập nhật nguyên liệu
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="row">
+                    <div class="col-sm border-right">
+                        <div class="my-1">
+                            <!-- ten nguyen lieu -->
+                            <div class="">
+                                <label class="mr-sm-2" for="inlineFormCustomSelect">Tên
+                                    nguyên
+                                    liệu</label>
+                                <input class="form-control" type="text" placeholder="Tên nguyên liệu ...">
+                            </div>
+                            <!-- khoi luong -->
+                            <div class="mt-4">
+                                <label class="mr-sm-2" for="inlineFormCustomSelect">Khối
+                                    lượng</label>
+                                <input min="0" class="form-control" type="number" placeholder="khối lượng ...">
+                            </div>
+                            <div class="row">
+                                <!-- don vi nguyen lieu -->
+                                <div class="col-sm">
+                                    <div class="mt-4">
+                                        <label class="mr-sm-2" for="inlineFormCustomSelect">Đơn
+                                            vị</label>
+                                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelect">
+                                            <option selected>Choose...</option>
+                                            <option value="1">Tấn</option>
+                                            <option value="2">Kg</option>
+                                            <option value="3">Lít</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <!-- GG -->
+                                <div class="col-sm">
+                                    <div class="">
+                                        <label class="mr-sm-2" for="inlineFormCustomSelect">Gigagram</label>
+                                        <input class="form-control" type="text" placeholder="200" disabled>
+                                    </div>
+                                </div>
+                                x
+                                <!-- Nhiet tri -->
+                                <div class="col-sm">
+                                    <div class="">
+                                        <label class="mr-sm-2" for="inlineFormCustomSelect">Nhiệt
+                                            trị (Tj/Gg)</label>
+                                        <input class="form-control" type="number" placeholder="26.3" disabled>
+                                    </div>
+                                </div>
+                                =
+                                <!-- Nhiet luong -->
+                                <div class="col-sm">
+                                    <div class="">
+                                        <label class="mr-sm-2" for="inlineFormCustomSelect">Nhiệt lượng
+                                            (Tj)</label>
+                                        <input class="form-control" type="number" placeholder="26.3" disabled>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <!-- He so phat -->
+                        <div class="">
+                            <label class="mr-sm-2 border-bottom w-50" for="inlineFormCustomSelect">Hệ
+                                số phát
+                                thải(Kg/TJ)</label>
+                            <div class="row mt-2">
+                                <div class="col-sm">
+                                    <label class="mr-sm-2 text-sm" for="inlineFormCustomSelect">CO2:</label>
+                                    <input class="form-control" id="disabledInput" type="text" placeholder="89.000"
+                                        disabled>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mr-sm-2 text-sm" for="inlineFormCustomSelect">CH4:</label>
+                                    <input class="form-control" id="disabledInput" type="text" placeholder="89.000"
+                                        disabled>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mr-sm-2 text-sm" for="inlineFormCustomSelect">N20:</label>
+                                    <input class="form-control" id="disabledInput" type="text" placeholder="89.000"
+                                        disabled>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- GWP -->
+                        <div class="">
+                            <label class="mr-sm-2 mt-4 border-bottom w-50" for="inlineFormCustomSelect">GWP</label>
+                            <div class="row mt-2">
+                                <div class="col-sm">
+                                    <label class="mr-sm-2 text-sm" for="inlineFormCustomSelect">CH4:</label>
+                                    <input class="form-control" id="disabledInput" type="text" placeholder="89.000"
+                                        disabled>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mr-sm-2 text-sm" for="inlineFormCustomSelect">N20:</label>
+                                    <input class="form-control" id="disabledInput" type="text" placeholder="89.000"
+                                        disabled>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Luong phat thai -->
+                        <div class="">
+                            <label class="mr-sm-2 mt-4 border-bottom w-50" for="inlineFormCustomSelect">Lượng phát
+                                thải</label>
+                            <div class="row mt-2">
+                                <div class="col-sm">
+                                    <label class="mr-sm-2 text-sm" for="inlineFormCustomSelect">CO2(kg):</label>
+                                    <input class="form-control" id="disabledInput" type="text" placeholder="89.000"
+                                        disabled>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mr-sm-2 text-sm" for="inlineFormCustomSelect">CH4(kg):</label>
+                                    <input class="form-control" id="disabledInput" type="text" placeholder="89.000"
+                                        disabled>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mr-sm-2 text-sm" for="inlineFormCustomSelect">N20(kg):</label>
+                                    <input class="form-control" id="disabledInput" type="text" placeholder="89.000"
+                                        disabled>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tong -->
+                        <div class="mt-4 text-danger text-right" style="font-size: 18px; font-weight: 600;">
+                            Tổng lượng phát thải CO2e: <spa class="ml-3">
+                                527,257.72 (Tấn)</spa>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Thêm</button>
+            </div>
+        </div>
+    </div>
+</div>

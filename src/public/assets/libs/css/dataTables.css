@@ -1,0 +1,74 @@
+.buttonAdd {
+    background-color: #5969FF;
+    color: white;
+    border: transparent;
+    padding: 8px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-sm {
+    font-size: 14px;
+}
+
+.title-modal {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.data_table {
+    max-height: 500px;
+    min-height: 250px;
+}
+
+.data_table .data_table-theadfirst th {
+    text-align: center;
+    font-size: 16px;
+}
+
+.data_table .data_table-theadSecond th {
+    min-width: 120px;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.data_table tbody tr td {
+    text-align: center;
+}
+
+.icon-trash-revert {
+    float: right;
+    flex: 1 !important;
+    text-align: right !important;
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-trash-revert:hover {
+    opacity: 0.6;
+}
+
+.icon-revert {
+    color: rgb(49, 146, 215);
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.icon-pencil {
+    color: rgb(173, 173, 28);
+    margin: 0 6px;
+}
+
+.icon-trash {
+    color: red;
+}
+
+.icon__table {
+    font-size: 18px;
+}
+
+.icon__table:hover {
+    opacity: 0.7;
+}
